@@ -671,14 +671,50 @@ export const industries = [
 
 
 export const footerLinks = {
-  company: ["About", "Core Team", "Careers", "CSR", "How We Work", "Awards", "FAQ"],
-  services: ["Digital Transformation", "Consulting", "Mobile App Development", "Software Development", "Cloud Services"],
-  portfolio: ["KFC", "Adidas", "IKEA", "Americana", "Flynas", "Sonny"],
-  technologies: ["Artificial Intelligence", "RPA", "IoT", "AR/VR", "Blockchain", "Cybersecurity"],
-  industries: ["Healthcare", "Finance", "Automotive", "Education", "On-Demand", "eCommerce"],
-  resources: ["Blogs", "Press Releases", "Guides", "Client Testimonials"],
+  company: [
+    "About Atmik Bharat", 
+    "Our Engineering Approach", 
+    "Leadership Team", 
+    "Careers", 
+    "Contact Us",
+    "Privacy Policy"
+  ],
+  services: [
+    "Web & Mobile Architecture", 
+    "Cloud & Gateway Integrations", 
+    "AI & Chatbot Ecosystems", 
+    "Deep Tech & Automation", 
+    "Analytics Insights"
+  ],
+  portfolio: [
+    "GovTech Modernization",
+    "Fintech Payment Systems",
+    "Healthcare Telemetry",
+    "E-Commerce Automation",
+    "Enterprise ERP Scaling"
+  ],
+  technologies: [
+    "React & Next.js", 
+    "Node.js Ecosystems", 
+    "AWS & Google Cloud", 
+    "Python & TensorFlow", 
+    "Docker & Microservices"
+  ],
+  industries: [
+    "GovTech & Public Utilities", 
+    "Fast-Growth Startups", 
+    "SMEs & Industrial Units", 
+    "Retail & E-Commerce",
+    "Fintech & HealthTech"
+  ],
+  resources: [
+    "Engineering Blog", 
+    "Architecture Guides", 
+    "Case Studies", 
+    "Client Testimonials",
+    "API Documentation"
+  ],
 };
-
 export const locations = [
   { Office: "Block-Office", address: "B116, Devan Apartment No 1, Navghar, Vasai, Maharastra (E), 401210" },
   { Office: "Head-Office", address: "Block 86, Nehru Nagar East-490020, Bhilai, Chhattisgarh, India" },
