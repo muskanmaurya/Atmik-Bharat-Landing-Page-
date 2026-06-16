@@ -85,7 +85,7 @@ export function Footer() {
         <div className="border-t border-white/10 py-8">
           <div className="flex flex-wrap items-center justify-between gap-4">
             <p className="text-xs text-white/30">
-              Copyright ©2026-2027 Appinventiv All Rights Reserved.
+              Copyright ©2026-2027 AtmikBharat All Rights Reserved.
             </p>
             <div className="flex gap-4 text-xs text-white/30">
               <a href="#" className="hover:text-white">Sitemap</a>
