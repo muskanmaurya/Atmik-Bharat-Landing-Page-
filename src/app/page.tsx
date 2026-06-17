@@ -31,7 +31,7 @@ export default function Home() {
         <HeroSection />
         <InnovationsSection/>
         <ServicesSection />
-        {/* <ServicesCarousel slides={servicesSlides} /> */}
+        <ServicesCarousel slides={servicesSlides} />
         {/* <InventivAISection /> */}
         <StatsMarquee />
         <TechStackSection />
