@@ -48,8 +48,8 @@ export default function Home() {
         {/* <MarketingCTA /> */}
         <FAQSection />
       </main>
-      {/* <Footer /> */}
-      {/* <ContactModal /> */}
+      <Footer />
+      <ContactModal />
     </SmoothScroll>
   );
 }
