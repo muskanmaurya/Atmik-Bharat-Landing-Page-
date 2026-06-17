@@ -631,6 +631,91 @@ export const complianceCategories = [
   },
 ];
 
+export interface InnovationItem {
+  id: string;
+  title: string;
+  label: "Flagship" | "Core Module" | "Applied Innovation" | "Concept";
+  description: string;
+  tier: "flagship" | "core" | "experimental";
+  link: string;
+  image: string;
+}
+
+export const innovationsData: InnovationItem[] = [
+  {
+    id: "vertex-suite",
+    title: "Vertex Suite",
+    label: "Flagship",
+    description: "An all-in-one platform designed to centralize communication, commerce, operational workflows, and customer engagement through a unified digital system.",
+    tier: "flagship",
+    link:"https://vertexsuite.in/",
+    image:"/assets/stats/networks.png"
+  },
+  {
+    id: "social-commerce",
+    title: "Social Commerce Suite",
+    label: "Core Module",
+    description: "Transform customer discovery and purchasing into a WhatsApp-led buying journey with product catalogs, interaction flows, and seamless engagement.",
+    tier: "core",
+    link: "#",
+    image:"/assets/stats/networks.png"
+  },
+  {
+    id: "communication-marketing",
+    title: "Communication & Marketing Suite",
+    label: "Core Module",
+    description: "Run customer communication, automated outreach, and engagement workflows from one connected marketing layer.",
+    tier: "core",
+    link: "#",
+    image:"/assets/stats/networks.png"
+  },
+  {
+    id: "order-inventory",
+    title: "Order & Inventory Suite",
+    label: "Core Module",
+    description: "Track inventory, manage orders, support multi-vendor workflows, and improve fulfillment visibility from a centralized dashboard.",
+    tier: "core",
+    link: "#",
+    image:"/assets/stats/networks.png"
+  },
+  {
+    id: "conversational-workflow",
+    title: "Conversational Workflow Engine",
+    label: "Core Module",
+    description: "Use AI-assisted flow builders and WhatsApp-native journeys to automate support, sales, and service interactions at scale.",
+    tier: "core",
+    link: "#",
+    image:"/assets/stats/networks.png"
+  },
+  {
+    id: "home-automation",
+    title: "Home Automation Interfaces",
+    label: "Applied Innovation",
+    description: "Exploring conversational interfaces that connect users with home automation workflows directly through chat.",
+    tier: "experimental",
+    link: "#",
+    image:"/assets/stats/networks.png"
+  },
+  {
+    id: "farm-automation",
+    title: "Farm Automation Interfaces",
+    label: "Applied Innovation",
+    description: "Extending WhatsApp-based interaction models into agriculture-focused automation and service workflows.",
+    tier: "experimental",
+    link: "#",
+    image:"/assets/stats/networks.png"
+  },
+  {
+    id: "ev-automation",
+    title: "EV Automation Concepts",
+    label: "Concept",
+    description: "Early experimentation in bringing conversational automation into electric mobility and related service experiences.",
+    tier: "experimental",
+    link: "#",
+    image:"/assets/stats/networks.png"
+  }
+];
+
 export const partners = [
   "Amazon Web Services",
   "Ingram Micro",

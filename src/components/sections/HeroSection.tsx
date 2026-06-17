@@ -37,7 +37,7 @@ export function HeroSection() {
         <video
           ref={videoRef}
           className="h-full w-full object-cover object-center"
-          poster={ASSETS.heroPoster}
+          poster={""}
           playsInline
           muted
           autoPlay

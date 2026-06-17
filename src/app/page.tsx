@@ -21,6 +21,7 @@ import { FAQSection } from "@/components/sections/FAQSection";
 import { ServicesCarousel } from "@/components/sections/ServicesCarousel";
 import { coreTechnologies, servicesSlides } from "@/data/content";
 import { TechStackSection } from "@/components/sections/TechStack";
+import { InnovationsSection } from "@/components/sections/InnovationSection";
 
 export default function Home() {
   return (
@@ -28,8 +29,9 @@ export default function Home() {
       <Header />
       <main>
         <HeroSection />
+        <InnovationsSection/>
         <ServicesSection />
-        <ServicesCarousel slides={servicesSlides} />
+        {/* <ServicesCarousel slides={servicesSlides} /> */}
         {/* <InventivAISection /> */}
         <StatsMarquee />
         <TechStackSection />
@@ -46,7 +48,7 @@ export default function Home() {
         {/* <MarketingCTA /> */}
         <FAQSection />
       </main>
-      <Footer />
+      {/* <Footer /> */}
       {/* <ContactModal /> */}
     </SmoothScroll>
   );

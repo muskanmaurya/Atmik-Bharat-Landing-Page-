@@ -8,6 +8,11 @@ export function StatsMarquee() {
   return (
     <section className="section-padding overflow-hidden bg-blue-950 py-16">
       <div className="overflow-hidden">
+        <h2 className="text-4xl font-display text-center md:text-5xl font-bold text-white tracking-tight mb-6">
+          Metrics of Excellence
+        </h2>
+        <p className="pb-8 text-center text-blue-200 max-w-2xl mx-auto text-lg leading-relaxed">
+          Decades of combined experience translated into measurable ROI, robust architectures, and uncompromising client satisfaction.        </p>
         <div
           className="flex w-max gap-4 animate-marquee-left hover:[animation-play-state:paused]"
           style={{ animationDuration: "60s" }}
